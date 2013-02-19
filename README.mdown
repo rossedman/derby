@@ -1,0 +1,26 @@
+Bourbon Neat Sublime
+====================
+
+__Auto-completion pack written by Ross Edman__
+This is a basic set of autocompletions to aid in using Bourbon and Neat as if those SASS libraries weren't already efficient enough.
+
+## Installation
+
+*1.*  Install SASS Textmate Bundle (Used for syntax highlighting and auto-completion)
+	
+	https://github.com/nathos/sass-textmate-bundle
+
+*2.*  Install Bourbon & Neat into your project
+	
+	https://github.com/thoughtbot/bourbon.git
+	https://github.com/thoughtbot/neat.git
+
+*3.*  Clone the repository into your Sublime Text Packages folder.
+
+    http://[username]@git.dev.axzm.com:7990/scm/SBLME/bourbon.git
+
+*4.*  Shred. Go forth and slay the internet.
+
+
+## License
+License: MIT [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)

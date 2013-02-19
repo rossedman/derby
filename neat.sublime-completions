@@ -1,0 +1,17 @@
+{
+  "scope": "source.sass",
+
+  "completions":
+  [
+ 	{ "trigger": "outer-container", "contents": "@include outer-container;" },
+ 	{ "trigger": "span-columns", "contents": "@include span-columns( ${1:6 of 8, inline-block} );" },
+ 	{ "trigger": "row", "contents": "@include row( ${1:block | table} );" },
+ 	{ "trigger": "shift", "contents": "@include shift( ${1:2} );" },
+ 	{ "trigger": "pad", "contents": "@include pad( ${1:30px default} );" },
+ 	{ "trigger": "omega", "contents": "@include omega( ${1:4n table} );" },
+ 	{ "trigger": "remove-gutter", "contents": "@include omega( ${1:4n table} );" },
+ 	{ "trigger": "fill-parent", "contents": "@include fill-parent;" },
+ 	{ "trigger": "media-query", "contents": "@include media( ${1:min-width 320px max-width 480px 4} );" },
+ 	{ "trigger": "breakpoint", "contents": "new-breakpoint( ${1:min-width 320px max-width 480px 4} );" }
+  ]
+}
