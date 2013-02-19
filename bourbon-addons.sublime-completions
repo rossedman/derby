@@ -1,0 +1,23 @@
+{
+  "scope": "source.sass",
+
+  "completions":
+  [
+ 	{ "trigger": "button", "contents": "@include button( ${1:simple | shiny | pill}, ${2:#ff0000} );" },
+	{ "trigger": "clearfix", "contents": "@include clearfix;" },
+	{ "trigger": "helvetica", "contents": "font-family: \\$helvetica;" },
+	{ "trigger": "georgia", "contents": "font-family: \\$georgia;" },
+	{ "trigger": "lucida-grande", "contents": "font-family: \\$lucida-grande;" },
+	{ "trigger": "monospace", "contents": "font-family: \\$monospace;" },
+	{ "trigger": "verdana", "contents": "font-family: \\$verdana;" },
+	{ "trigger": "hide-text", "contents": "@include hide-text;" },
+	{ "trigger": "all-text-inputs", "contents": "#{\\$all-text-inputs} { ${1:border: 1px solid green;} }" },
+	{ "trigger": "all-text-inputs-hover", "contents": "#{\\$all-text-inputs-hover} { ${1:background: yellow;} }" },
+	{ "trigger": "all-text-inputs-focus", "contents": "#{\\$all-text-inputs-focus} { ${1:background: white;} }" },
+	{ "trigger": "inline-block", "contents": "@include inline-block;" },
+	{ "trigger": "position", "contents": "@include position( ${1:relative}, ${2:0px 0 0 100px} );" },
+	{ "trigger": "retina", "contents": "@include retina-image( ${1:home-icon}${2:, 32px 20px} );" },
+	{ "trigger": "size", "contents": "@include size( ${1:30px 70px} );" },
+	{ "trigger": "triangle", "contents": "@include triangle( ${1:12px}, ${2:gray}, ${3:down} );" }
+  ]
+}
