@@ -1,0 +1,25 @@
+{
+  "scope": "source.sass",
+
+  "completions":
+  [
+ 	{ "trigger": "compact", "contents": "compact( ${1: \\$name-1, \\$name-2, \\$name-3, \\$name-4, \\$name-5, \\$name-6, \\$name-7, \\$name-8, \\$name-9, \\$name-10} );" },
+ 	{ "trigger": "fg-column", "contents": "\\$fg-column: ${1:60px;} " },
+ 	{ "trigger": "fg-gutter", "contents": "\\$fg-gutter: ${1:25px;} " },
+ 	{ "trigger": "fg-max-columns", "contents": "\\$fg-max-columns: ${1:12;} " },
+ 	{ "trigger": "flexgrid", "contents": "flex-grid( ${1:2, 4} );" },
+ 	{ "trigger": "flex-gutter", "contents": "flex-gutter( ${1:4} );" },
+ 	{ "trigger": "golden-ratio", "contents": "golden-ratio( ${1:14px,  1} );" },
+ 	{ "trigger": "gw-column", "contents": "\\$gw-column: ${1:100px;} " },
+ 	{ "trigger": "gw-gutter", "contents": "\\$gw-gutter: ${1:40px;} " },
+ 	{ "trigger": "grid-width", "contents": "grid-width( ${1:4} );" },
+ 	{ "trigger": "linear-gradient", "contents": "@include background-image(linear-gradient( ${1:white 0}, ${2:yellow 50%}, ${3:transparent 50%} ));" },
+ 	{ "trigger": "modular-scale", "contents": "modular-scale( ${1:14px}, ${2:1}, ${3:1.618} );" },
+ 	{ "trigger": "modular-scale-floor", "contents": "floor( modular-scale( ${1:14px}, ${2:1}, ${3:1.618} ) );" },
+ 	{ "trigger": "modular-scale-ceil", "contents": "ceil( modular-scale( ${1:14px}, ${2:1}, ${3:1.618} ) );" },
+ 	{ "trigger": "modular-scale-abs", "contents": "abs( modular-scale( ${1:14px}, ${2:1}, ${3:1.618} ) );" },
+ 	{ "trigger": "radial-gradient", "contents": "@include background-image( radial-gradient( ${1:#1e5799}, ${2:#3dc3d1} ) );" },
+ 	{ "trigger": "tint", "contents": "tint( ${1:red}, ${2:40%} );" },
+ 	{ "trigger": "shade", "contents": "shade( ${1:blue}, ${2:60%} );" }
+  ]
+}
