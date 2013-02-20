@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Prefixer 
+ * The prefixer is for generating vendor prefixed declarations.
+ *
+ * Arguments
+ * webkit | moz | ms | o | spec
+ * 
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_prefixer.scss
+ */
+}
+@mixin box-sizing($box) {
+  @include prefixer(box-sizing, $box, webkit moz spec);
+}
+
+]]></content>
+	<tabTrigger>docsPrefixer</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

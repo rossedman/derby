@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Shifting Columns
+ * To move an element to the left or right by a number of columns, use the shift mixin
+ * Please note that the shift() mixin is incompatible with display table
+ *
+ * Source
+ * https://github.com/thoughtbot/neat#using-the-grid
+ */
+}
+@include shift(2); // Move 2 columns to the right
+@include shift(-3); // Move 3 columns to the left
+
+]]></content>
+	<tabTrigger>docsShiftingColumns</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

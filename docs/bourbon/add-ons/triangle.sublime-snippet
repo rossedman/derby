@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Triangle
+ * Creates a visual triangle.
+ *
+ * Arguments
+ * Mixin takes ($size, $color, $direction)
+ *
+ * Source
+ * hhttps://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_triangle.scss
+ */
+}
+@include triange(12px, gray, down);
+
+]]></content>
+	<tabTrigger>docsSize</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

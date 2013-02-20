@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Fill Parent
+ * This makes sure that the child fills 100% of its parent
+ *
+ * Source
+ * https://github.com/thoughtbot/neat#using-the-grid
+ */
+}
+@include fill-parent;
+
+]]></content>
+	<tabTrigger>docsFillParent</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

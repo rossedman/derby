@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Removing Gutter
+ * Neat removes by default the last column's gutter. However, if you are queueing more than one row of 
+ * columns within the same parent element, you need to specify which columns are considered last in 
+ * their row to preserve the layout. Use the omega mixin to achieve this:
+ *
+ * Source
+ * https://github.com/thoughtbot/neat#using-the-grid
+ */
+}
+@include omega; // Removes the right gutter (margin) of the element
+@include omega(table); // Removes the right gutter (padding) of a table-cell element
+@include omega(4n); // Removes every 4th right gutter (margin)
+@include omega(4n table); // Removes every 4th right gutter (padding) of a table-cell element
+
+]]></content>
+	<tabTrigger>docsRemovingGutter</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

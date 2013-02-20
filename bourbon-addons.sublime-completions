@@ -18,6 +18,12 @@
 	{ "trigger": "position", "contents": "@include position( ${1:relative}, ${2:0px 0 0 100px} );" },
 	{ "trigger": "retina", "contents": "@include retina-image( ${1:home-icon}${2:, 32px 20px} );" },
 	{ "trigger": "size", "contents": "@include size( ${1:30px 70px} );" },
-	{ "trigger": "triangle", "contents": "@include triangle( ${1:12px}, ${2:gray}, ${3:down} );" }
+	{ "trigger": "triangle", "contents": "@include triangle( ${1:12px}, ${2:gray}, ${3:down} );" },
+	{ "trigger": "prefix-for-webkit", "contents": "$prefix-for-webkit: ${1:true};" },
+	{ "trigger": "prefix-for-mozilla", "contents": "$prefix-for-mozilla: ${1:true};" },
+	{ "trigger": "prefix-for-microsoft", "contents": "$prefix-for-microsoft: ${1:true};" },
+	{ "trigger": "prefix-for-opera", "contents": "$prefix-for-opera: ${1:true};" },
+	{ "trigger": "prefix-for-spec", "contents": "$prefix-for-spec: ${1:true};" },
+	{ "trigger": "prefixer", "contents": "@include prefixer( ${1:box-sizing}, ${2:$box}, ${3:webkit moz spec} );" }
   ]
 }

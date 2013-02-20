@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Columns
+ * In order to clear floated or table-cell columns, use the row mixin @include row($display)
+ *
+ * Arguments
+ * block | table
+ *
+ * Source
+ * https://github.com/thoughtbot/neat#using-the-grid
+ */
+}
+@include row($display);
+
+]]></content>
+	<tabTrigger>docsRows</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

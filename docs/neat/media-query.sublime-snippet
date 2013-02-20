@@ -1,0 +1,103 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Media Queries
+ * The media() mixin allows you to use media-queries to modify both the grid and the layout.
+ *
+ * Arguments
+ * @include media($query, $total-columns: $grid-columns)
+ *
+ * Query contains the media feature (min-width, max-width, etc.) and the value (481px, 30em, etc.). 
+ * If you specify the value only, min-width will be used by default (ideal if you follow a 
+ * mobile-first approach). You can also change the default feature in the settings (see section below).
+ *
+ * Total-columns (optional) is the total number of columns to be used inside this media query. 
+ * Changing the total number of columns will change the width, padding and margin percentages 
+ * obtained using the span-column mixin.
+ *
+ * Source
+ * https://github.com/thoughtbot/neat#using-the-grid
+ */
+}
+// Example 1
+.my-class {
+  @include media(481px) {
+    font-size: 1.2em;
+  }
+}
+
+// Compiled CSS
+@media screen and (min-width: 481px) {
+  .my-class {
+    font-size: 1.2em;
+  }
+}
+
+// Example 2
+.my-class {
+  @include media(max-width 769px, 6) { // Use a 6 column grid (instead of the default 12)
+    @include span-columns(6);
+  }
+}
+
+// Compiled CSS
+@media screen and (max-width: 769px) {
+  .my-class {
+    display: block;
+    float: left;
+    margin-right: 4.82916%;
+    width: 100%; // That's 6 columns of the total 6 specified for this media query
+  }
+  .my-class:last-child {
+    margin-right: 0;
+  }
+}
+
+// Here is a summary of possible argument combinations:
+
+// YAY
+@include media(480px);
+@include media(max-width 480px);
+@include media(min-width 320px max-width 480px);
+@include media(480px, 4);
+@include media(max-width 480px, 4);
+@include media(min-width 320px max-width 480px, 4);
+@include media(max-width 480px 4); // Shorthand syntax
+@include media(min-width 320px max-width 480px 4); // Shorthand syntax
+
+// NAY
+@include media(480px 4);
+@include media(max-width 4);
+@include media(max-width, 4);
+@include media(320px max-width 480px);
+
+// For convenience, you can create a new media context (breakpoint/column-count) with the help of 
+// the new-breakpoint mixin and use it throughout your code:
+
+$mobile: new-breakpoint(max-width 480px 4); // Use a 4 column grid in mobile devices
+
+.my-class {
+  @include media($mobile) {
+    @include span-columns(2);
+  }
+}
+
+// Compiled CSS
+
+@media screen and (max-width: 480px) {
+  .my-class {
+    display: block;
+    float: left;
+    margin-right: 7.42297%;
+    width: 46.28851%; // 2 columns of the total 4 in this media context
+  }
+  .my-class:last-child {
+    margin-right: 0;
+  }
+}
+
+]]></content>
+	<tabTrigger>docsMediaQuery</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

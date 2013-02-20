@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Prefixer Settings 
+ * Shorthand notation for setting the position of elements in your page.
+ * By default, Bourbon outputs all vendor-prefixes specified by each mixin. 
+ * You can optionally overwrite these global defaults by setting any of these variables to 
+ * false at the top of your stylesheet.
+ * 
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_placeholder.scss
+ */
+}
+$prefix-for-webkit:    true;
+$prefix-for-mozilla:   true;
+$prefix-for-microsoft: true;
+$prefix-for-opera:     true;
+$prefix-for-spec:      true;
+
+]]></content>
+	<tabTrigger>docsPrefixerSettings</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

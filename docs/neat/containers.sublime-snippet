@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Containers
+ * Include the outer-container mixin in the topmost container (to which the max-width setting will be applied)
+ *
+ * Source
+ * https://github.com/thoughtbot/neat#using-the-grid
+ */
+}
+div.container {
+  @include outer-container;
+}
+
+]]></content>
+	<tabTrigger>docsContainers</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

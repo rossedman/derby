@@ -8,7 +8,7 @@ ${1:
  * The second parameter is a space delimited list of values that follow the standard CSS shorthand notation..
  * 
  * Source
- * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_inline-block.scss
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_position.scss
  */
 }
 // instead of writing this

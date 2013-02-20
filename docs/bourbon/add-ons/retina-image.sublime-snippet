@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Retina Image 
+ * The mixin is a helper to generate a retina background-image and non-retina background-image. 
+ * The retina background-image will output to a hidpi media-query. 
+ * The mixin uses a @2x.png retina filename by default.
+ * For rails, you can use the asset-pipeline by passing true to the argument.
+ *
+ * Arguments
+ * @ retina-image($filename, $background-size, $extension*, $retina-filename*, $asset-pipeline*)
+ * 
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_retina-image.scss
+ */
+}
+span {
+  @include retina-image(home-icon, 32px 20px)
+}
+
+]]></content>
+	<tabTrigger>docsRetinaImage</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>
