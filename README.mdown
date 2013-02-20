@@ -18,7 +18,7 @@ Named after the cocktail Derby which contains Lime and Bourbon.
 
 *3.*  Clone the Derby repository into your Sublime Text Packages folder.
 
-    http://[username]@git.dev.axzm.com:7990/scm/SBLME/derby.git
+    https://github.com/redata425/derby.git
 
 
 ## License
