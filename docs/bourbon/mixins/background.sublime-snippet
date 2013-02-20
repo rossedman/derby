@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+${:1
+/**
+ * Background
+ * The background mixin is used for adding multiple backgrounds using shorthand notation. 
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_background.scss
+ */
+}
+@include background(linear-gradient(red, green) left repeat);
+@include background(linear-gradient(red, green) left repeat, radial-gradient(red, orange) left repeat);
+@include background(url("/images/a.png"), linear-gradient(red, green), center no-repeat orange scroll);
+
+]]></content>
+	<tabTrigger>docsBackground</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

@@ -1,0 +1,23 @@
+
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Image-rendering
+ * The image-rendering property provides a hint to the user agent about how to handle its image rendering.
+ *
+ * Find device pixel ratio here: http://bjango.com/articles/min-device-pixel-ratio/
+ *
+ * Arguments
+ * optimizeQuality | optimizeSpeed | auto | crisp-edges | pixelated
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_image-rendering.scss
+ */
+}
+@include image-rendering(optimizeSpeed);
+
+]]></content>
+	<tabTrigger>docsImageRendering</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Linear Gradient 
+ * Gradient Position is optional, default is top. Position can be a degree (90deg). 
+ * Mixin supports up to 10 color-stops.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_keyframes.scss
+ */
+}
+
+// This mixin will output a fallback background-color: #first-color; declaration. 
+// A $fallback argument can be passed to change the fallback color.
+@include linear-gradient(#1e5799, #2989d8);
+@include linear-gradient(top, #8fdce5, #3dc3d1);
+@include linear-gradient(top, #8fdce5, #3dc3d1, $fallback: red);
+@include linear-gradient(50deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+
+// Optional variables can be passed to control the deprecated -webkit-gradient() function (iOS 4):
+// $deprecated-pos1, $deprecated-pos2
+@include linear-gradient(#1e5799, #3dc3d1, $deprecated-pos1: left center, $deprecated-pos2: left top);
+
+]]></content>
+	<tabTrigger>docsLinearGradient</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

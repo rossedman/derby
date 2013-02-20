@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Perspective 
+ * The perspective CSS property determines the distance between the z=0 plane and the user in 
+ * order to give to the 3D-positioned element some perspective. The perspective-origin CSS property 
+ * determines the position the viewer is looking at. It is used as the vanishing point 
+ * by the perspective property.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_perspective.scss
+ */
+}
+@include perspective(300px);
+@include perspective-origin(30% 30%);
+
+]]></content>
+	<tabTrigger>docsPerspective</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

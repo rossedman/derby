@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Radial Gradient
+ * Takes up to 10 gradients. This mixin will output a fallback background-color: #first-color; declaration. 
+ * A $fallback argument can be passed to change the fallback color.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_radial-gradient.scss
+ */
+}
+@include radial-gradient(#1e5799, #3dc3d1);
+@include radial-gradient(50% 50%, circle cover, #eee 10%, #1e5799 30%, #efefef);
+@include radial-gradient(50% 50%, circle cover, #eee 10%, #1e5799 30%, #efefef, $fallback: red);
+
+// Optional variables can be passed to control the deprecated -webkit-gradient() function (iOS 4):
+// $deprecated-pos1, $deprecated-pos2, $deprecated-radius1, $deprecated-radius2
+
+@include radial-gradient(#1e5799, #3dc3d1,
+                         $deprecated-pos1: left center, $deprecated-pos2: left top,
+                         $deprecated-radius1: 50, $deprecated-radius2: 360);
+
+]]></content>
+	<tabTrigger>docsRadialGradient</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

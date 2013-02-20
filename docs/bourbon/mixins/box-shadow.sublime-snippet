@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Box-Shadow
+ * Box-shadow supports single or multiple arguments.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_box-shadow.scss
+ */
+}
+// Single Box Shadow
+@include box-shadow(0 0 5px 3px hsla(0, 0%, 0%, 0.65));
+
+// Multiple Box Shadows
+@include box-shadow(1px 1px 5px 1px green, -1px -1px 5px 1px blue);
+
+]]></content>
+	<tabTrigger>docsBoxShadow</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

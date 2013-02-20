@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Transitions
+ * The shorthand mixin supports multiple transition.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_transform.scss
+ */
+}
+@include transition (all 2.0s ease-in-out);
+@include transition (opacity 1.0s ease-in 0s, width 2.0s ease-in 2s);
+
+// Transition a vendor-prefixed property (transform)
+@include transition (transition-property-names((transform, color, background), moz) 1.0s ease-in 0s);
+
+]]></content>
+	<tabTrigger>docsTransition</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

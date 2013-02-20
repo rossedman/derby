@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Appearance
+ * The appearance CSS property is used to display an element using a platform-native styling 
+ * based on the operating system's theme.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_appearance.scss
+ */
+}
+@include appearance(none);
+
+]]></content>
+	<tabTrigger>docsAppearance</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>
+

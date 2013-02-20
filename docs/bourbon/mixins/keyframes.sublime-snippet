@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Keyframes
+ * A mixin for generating clean vendor-prefixed keyframes.
+ *
+ * Arguments
+ * optimizeQuality | optimizeSpeed | auto | crisp-edges | pixelated
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_keyframes.scss
+ */
+}
+@include keyframes(fadeIn) {
+  from {
+    @include transform(scale(0));
+  }
+  to {
+    @include transform(scale(1));
+  }
+}
+
+]]></content>
+	<tabTrigger>docsKeyframes</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

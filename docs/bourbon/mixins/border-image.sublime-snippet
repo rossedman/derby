@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Border Image
+ * Border-image supports short-hand notation.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_border-image.scss
+ */
+}
+@include border-image(url(/images/border.png) 27 repeat);
+
+]]></content>
+	<tabTrigger>docsBorderImage</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

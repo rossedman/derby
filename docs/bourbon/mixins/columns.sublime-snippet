@@ -1,0 +1,19 @@
+
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Columns
+ * All current CSS3 column properties are supported.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_columns.scss
+ */
+}
+@include columns(12 8em);
+@include column-rule(1px solid green);
+
+]]></content>
+	<tabTrigger>docsColumns</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Background Size
+ * The background-size mixin supports multiple background-sizes for use with multiple 
+ * background-images via comma delimitation.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_background-size.scss
+ */
+}
+@include background-size(50% 100%); // Single
+@include background-size(50% 100%, 75% 100%); // Multiple
+
+]]></content>
+	<tabTrigger>docsBackgroundSize</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

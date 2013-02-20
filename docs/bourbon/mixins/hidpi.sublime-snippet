@@ -1,0 +1,24 @@
+
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * HIDPI Media Query
+ * The HIDPI Meda Query will allow you to generate a media query that targes HIDPI devices. 
+ * It accepts an optional ratio argument, default ratio is 1.3.
+ *
+ * Find device pixel ratio here: http://bjango.com/articles/min-device-pixel-ratio/
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_hidpi-media-query.scss
+ */
+}
+@include font-face(nobile, '/fonts/nobile');
+@include hidpi(1.5) {
+  width: 260px;
+}
+
+]]></content>
+	<tabTrigger>docsHIDPI</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

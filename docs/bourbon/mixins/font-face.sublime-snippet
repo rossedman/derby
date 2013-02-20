@@ -1,0 +1,24 @@
+
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Font-Face
+ * A simple @font-face mixin allowing easier custom fonts integration.
+ * The mixin also takes an optional $asset-pipeline: true argument for use with the Rails asset pipeline.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_font-face.scss
+ */
+}
+@include font-face(nobile, '/fonts/nobile');
+@include font-face(nobile, '/fonts/nobile_bold', bold);
+@include font-face(nobile, '/fonts/nobile_italic', normal, italic);
+
+// Rails asset-pipeline - place fonts in app/assets/fonts/
+@include font-face(nobile, '/nobile', normal, $asset-pipeline: true);
+
+]]></content>
+	<tabTrigger>docsFontFace</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Placeholder 
+ * Outputs vendor-prefixed placeholders for styling. Must be nested in a rule-set.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_placeholder.scss
+ */
+}
+input {
+  width: 300px;
+
+  @include placeholder {
+    color: red;
+  }
+}
+
+]]></content>
+	<tabTrigger>docsPlaceholder</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>
