@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Tint & Shade
+ * Tint and Shade are different from lighten() and darken() functions that are built into sass.
+ * Tint is a mix of color with white. Shade is a mix of color with black. 
+ * Both take a color and a percent argument.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/functions/_tint-shade.scss
+ */
+}
+background: tint(red, 40%);
+background: shade(blue, 60%);
+
+]]></content>
+	<tabTrigger>docsTintShade</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

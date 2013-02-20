@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Radial Gradient
+ * Outputs a radial-gradient. Use in conjunction with the background-image mixin. 
+ * The function takes the same arguments as the radial-gradient mixin.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/functions/_radial-gradient.scss
+ */
+}
+@include background-image( radial-gradient(#1e5799, #3dc3d1) );
+@include background-image( radial-gradient(50% 50%, circle cover, #1e5799, #3dc3d1) );
+@include background-image( radial-gradient(50% 50%, circle cover, #eee 10%, #1e5799 30%, #efefef) );
+
+]]></content>
+	<tabTrigger>docsRadialGradientFunction</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

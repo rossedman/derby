@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Compact
+ * The compact function will strip out any value from a list that is false. Takes up to 15 arguments.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/functions/_compact.scss
+ */
+}
+$full:  compact($name-1, $name-2, $name-3, $name-4, $name-5, $name-6, $name-7, $name-8, $name-9, $name-10);
+
+]]></content>
+	<tabTrigger>docsCompact</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

@@ -20,8 +20,6 @@ Named after the cocktail Derby which contains Lime and Bourbon.
 
     http://[username]@git.dev.axzm.com:7990/scm/SBLME/derby.git
 
-*4.*  Shred. Go forth and slay the internet.
-
 
 ## License
 License: MIT [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)

@@ -6,6 +6,9 @@ ${1:
  * The appearance CSS property is used to display an element using a platform-native styling 
  * based on the operating system's theme.
  *
+ * Arguments
+ * normal | icon | window | button | menu | field 
+ *
  * Source
  * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_appearance.scss
  */

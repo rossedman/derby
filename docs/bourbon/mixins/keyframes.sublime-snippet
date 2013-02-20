@@ -5,9 +5,6 @@ ${1:
  * Keyframes
  * A mixin for generating clean vendor-prefixed keyframes.
  *
- * Arguments
- * optimizeQuality | optimizeSpeed | auto | crisp-edges | pixelated
- *
  * Source
  * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_keyframes.scss
  */

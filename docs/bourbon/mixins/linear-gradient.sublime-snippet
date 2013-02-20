@@ -7,7 +7,7 @@ ${1:
  * Mixin supports up to 10 color-stops.
  *
  * Source
- * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_keyframes.scss
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_linear-gradient.scss
  */
 }
 

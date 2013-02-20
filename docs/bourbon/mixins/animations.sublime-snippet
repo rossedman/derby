@@ -14,7 +14,9 @@ ${1:
 box:hover {
   @include animation-name(scale, slide);
   @include animation-duration(2s);
+  // args : ease | linear | ease-in | ease-out | ease-in-out
   @include animation-timing-function(ease);
+  // args : infinite | <number>
   @include animation-iteration-count(infinite);
 
   // Animation shorthand works the same as the CSS3 animation shorthand

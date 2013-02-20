@@ -11,8 +11,11 @@ ${1:
 }
 div.parent {
   @include display-box;
+  // args : start | end | center | baseline | stretch
   @include box-align(start);
+  // args : horizontal | vertical | inline-axis | block-axis | inherit
   @include box-orient(horizontal);
+  // args : start | end | center | justify
   @include box-pack(start);
 }
 
