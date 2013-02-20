@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Position 
+ * Shorthand notation for setting the position of elements in your page.
+ * The first parameter is optional, with a default value of relative. 
+ * The second parameter is a space delimited list of values that follow the standard CSS shorthand notation..
+ * 
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_inline-block.scss
+ */
+}
+// instead of writing this
+position: relative;
+top: 0px;
+left: 100px;
+
+// write this instead
+@include position(relative, 0px 0 0 100px);
+
+]]></content>
+	<tabTrigger>docsPosition</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

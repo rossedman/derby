@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Buttons
+ * The button add-on provides well-designed buttons with a single line in your CSS.
+ *
+ * Arguments
+ * simple | shiny | pill
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_button.scss
+ */
+}
+// Simple
+button {@include button;}
+button {@include button(simple);}
+button {@include button(simple, #ff0000);}
+
+// Pill
+button {@include button(pill);}
+button {@include button(pill, #ff0000);}
+
+// Shiny
+button {@include button(shiny);}
+button {@include button(shiny, #ff0000);}
+
+]]></content>
+	<tabTrigger>docsButtons</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

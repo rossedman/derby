@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Clearfix
+ * This mixin will output a clearfix to the selector where the mixin is declared.
+ *
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_clearfix.scss
+ */
+}
+@include clearfix;
+
+]]></content>
+	<tabTrigger>docsClearfix</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

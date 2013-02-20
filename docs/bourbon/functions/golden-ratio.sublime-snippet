@@ -22,6 +22,6 @@ font-size: golden-ratio(14px, -1);
 // returns: 8.653px
 
 ]]></content>
-	<tabTrigger>docsGoldenRation</tabTrigger>
+	<tabTrigger>docsGoldenRatio</tabTrigger>
 	<scope>source.sass</scope>
 </snippet>

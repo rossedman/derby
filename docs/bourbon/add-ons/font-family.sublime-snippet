@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Font-Family
+ * Bourbon defines default font-families as variables for the sake of convenience.
+ * 
+ * $helvetica : "Helvetica Neue", Helvetica, Arial, sans-serif
+ * $georgia : Georgia, Cambria, "Times New Roman", Times, serif
+ * $lucida-grande : "Lucida Grande", Tahoma, Verdana, Arial, sans-serif
+ * $monospace : "Bitstream Vera Sans Mono", Consolas, Courier, monospace
+ * $verdana : Verdana, Geneva, sans-serif
+ * 
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_font-family.scss
+ */
+}
+font-family: $helvetica;
+font-family: $georgia;
+font-family: $lucida-grande;
+font-family: $monospace;
+font-family: $verdana;
+
+
+]]></content>
+	<tabTrigger>docsFontFamily</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

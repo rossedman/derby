@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * Inline Block 
+ * The inline-block mixin provides support for the inline-block property in IE6 and IE7.
+ * 
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_inline-block.scss
+ */
+}
+@include inline-block;
+
+]]></content>
+	<tabTrigger>docsInputTypes</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>

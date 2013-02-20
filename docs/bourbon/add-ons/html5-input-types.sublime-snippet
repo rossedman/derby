@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+${1:
+/**
+ * HTML5 Input Types
+ * This addon provides you with three variables which each contain a list of all html5 input types 
+ * that render as text-based inputs, excluding textarea. In other words, it allows for easy targeting 
+ * of all inputs that mimic input[type="text"].
+ * 
+ * Source
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_html5-input-types.scss
+ */
+}
+#{$all-text-inputs} {
+  border: 1px solid green;
+}
+
+#{$all-text-inputs-hover} { // Target the :hover pseudo-class
+  background: yellow;
+}
+
+#{$all-text-inputs-focus} { // Target the :focus pseudo-class
+  background: white;
+}
+
+]]></content>
+	<tabTrigger>docsInputTypes</tabTrigger>
+	<scope>source.sass</scope>
+</snippet>
