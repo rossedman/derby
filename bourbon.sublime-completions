@@ -49,7 +49,24 @@
 	{ "trigger": "box-ordinal-group", "contents": "@include box-ordinal-group( ${1:} );" },
 	{ "trigger": "box-orient", "contents": "@include box-orient( ${1:} );" },
 	{ "trigger": "box-pack", "contents": "@include box-pack( ${1:} );" },
-	{ "trigger": "display-box", "contents": "@include display-box;" }
-	
+	{ "trigger": "display-box", "contents": "@include display-box;" },
+	{ "trigger": "font-face", "contents": "@include font-face( ${1:nobile}, '${2:/fonts/nobile_italic}', ${3:normal}, ${4:italic} );" },
+	{ "trigger": "hidpi", "contents": "@include hidpi( ${1:1.5} )" },
+	{ "trigger": "image-rendering", "contents": "@include image-rendering( ${1:optimizeSpeed} );" },
+	{ "trigger": "keyframes", "contents": "@include keyframes( ${1:fadeIn} ) {from {@include transform(scale( ${2:0} ));} to {@include transform(scale( ${3:0} ));}}" },
+	{ "trigger": "linear-gradient", "contents": "@include linear-gradient( ${1:#1e5799}, ${2:#2989d8} );" },
+	{ "trigger": "perspective", "contents": "@include perspective( ${1:300px} );" },
+	{ "trigger": "perspective-origin", "contents": "@include perspective-origin( ${1:30% 30%} );" },
+	{ "trigger": "placeholder", "contents": "@include placeholder { ${1:color: red;} };" },
+	{ "trigger": "radial-gradient", "contents": "@include radial-gradient( ${1:#1e5799}, ${2:#3dc3d1} );" },
+	{ "trigger": "transform", "contents": "@include transform( ${1:translateY(50px)} );" },
+	{ "trigger": "transform-origin", "contents": "@include transform-origin( ${1:center top} );" },
+	{ "trigger": "transform-style", "contents": "@include transform-style( ${1:preserve-3d} );" },
+	{ "trigger": "transition", "contents": "@include transition ( ${1:all} ${2:2.0s} ${3:ease-in-out} );" },
+	{ "trigger": "transition-delay", "contents": "@include transition-delay( ${1:} );" },
+	{ "trigger": "transition-duration", "contents": "@include transition-duration( ${1:} );" },
+	{ "trigger": "transition-property", "contents": "@include transition-property( ${1:} );" },
+	{ "trigger": "transition-timing-function", "contents": "@include transition-timing-function( ${1:} );" },
+	{ "trigger": "user-select", "contents": "@include user-select( ${1:none} );" }
   ]
 }
