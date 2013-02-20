@@ -1,8 +1,9 @@
-Bourbon Neat Sublime
-====================
+Derby - Bourbon / Neat Autocompletion For Sublime
+=================================================
 
 __Auto-completion pack written by Ross Edman__
-This is a basic set of autocompletions to aid in using Bourbon and Neat as if those SASS libraries weren't already efficient enough.
+Sublime autocompletions to aid in using Bourbon and Neat.
+Named after the cocktail Derby which contains Lime and Bourbon.
 
 ## Installation
 
@@ -24,3 +25,18 @@ This is a basic set of autocompletions to aid in using Bourbon and Neat as if th
 
 ## License
 License: MIT [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
+
+## Use
+
+## Autocompletions
+
+Autocompletions are very self explanatory. These are snippets that are much shorter and are not weighted as heavily in Sublime Text. They just help you autocomplete complicated phrases very quickly. They work just like snippets too!
+
+To run in an autocomplete, type in the property you are looking for and hit `Tab`. Here are some examples with `->` being `Tab`. Most of the time you don't have to type this much as fuzzy searching in Sublime will catch it earlier.
+	
+	animation -> @include animation( scale 1.0s ease-in );
+	box-sizing -> @include box-sizing( border-box );
+
+## Docs
+
+The *docs* section is composed of snippets that are meant to serve as a reference and a teaching aid. These docs can be called on at any time by typing `docs` and then the reference you are looking for (exp: `Animation` or `BoxSizing`). While Bourbon, Neat and SASS are powerful tools, sometimes integrating them into production can be difficult, especially when first learning them. To have a reference at hand should help tremendously! I have even tried to hunt down and reference as many arguments as I can that you can pass into these mixins when applicable.
