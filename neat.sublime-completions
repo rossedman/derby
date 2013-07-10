@@ -12,6 +12,22 @@
  	{ "trigger": "remove-gutter", "contents": "@include omega( ${1:4n table} );" },
  	{ "trigger": "fill-parent", "contents": "@include fill-parent;" },
  	{ "trigger": "media-query", "contents": "@include media( ${1:min-width 320px max-width 480px 4} );" },
- 	{ "trigger": "breakpoint", "contents": "new-breakpoint( ${1:min-width 320px max-width 480px 4} );" }
+ 	{ "trigger": "breakpoint", "contents": "new-breakpoint( ${1:min-width 320px max-width 480px 4} );" },
+ 	{ "trigger": "reset-display", "contents": "@include reset-display;" },
+ 	{ "trigger": "reset-layout-direction", "contents": "@include reset-layout-direction;" },
+ 	{ "trigger": "reset-all", "contents": "@include reset-all;" },
+
+ 	// variables
+ 	{ "trigger": "column", "contents": "$column: 90px;" },
+ 	{ "trigger": "gutter", "contents": "$gutter: 30px;" },
+ 	{ "trigger": "grid-columns", "contents": "$grid-columns: 8;" },
+ 	{ "trigger": "max-width", "contents": "$max-width: 1024px;" },
+ 	{ "trigger": "border-box-sizing", "contents": "$border-box-sizing: false;" },
+ 	{ "trigger": "default-feature", "contents": "$default-feature: max-width;" },
+ 	{ "trigger": "default-layout-direction", "contents": "$default-layout-direction: RTL;" },
+ 	{ "trigger": "visual-grid", "contents": "$visual-grid: true;" },
+ 	{ "trigger": "visual-grid-color", "contents": "$visual-grid-color: #FF0000;" },
+ 	{ "trigger": "visual-grid-index", "contents": "$visual-grid-index: front;" },
+ 	{ "trigger": "visual-grid-opacity", "contents": "$visual-grid-opacity: 0.7;" },
   ]
 }

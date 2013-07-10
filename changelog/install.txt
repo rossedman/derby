@@ -1,0 +1,10 @@
+Derby 1.0.0
+--------------------
+
+This version added very few features as Bourbon and Neat have not changed much in the past
+few months. 
+
+	- Neat variables were added 
+	- Bourbon / Neat typos were fixed.
+
+Report issues at https://github.com/redata425/derby

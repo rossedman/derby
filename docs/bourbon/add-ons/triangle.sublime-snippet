@@ -12,7 +12,7 @@ ${1:
  * hhttps://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_triangle.scss
  */
 }
-@include triange(12px, gray, down);
+@include triangle(12px, gray, down);
 
 ]]></content>
 	<tabTrigger>docsSize</tabTrigger>
