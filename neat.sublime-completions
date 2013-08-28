@@ -28,6 +28,6 @@
  	{ "trigger": "visual-grid", "contents": "$visual-grid: true;" },
  	{ "trigger": "visual-grid-color", "contents": "$visual-grid-color: #FF0000;" },
  	{ "trigger": "visual-grid-index", "contents": "$visual-grid-index: front;" },
- 	{ "trigger": "visual-grid-opacity", "contents": "$visual-grid-opacity: 0.7;" },
+ 	{ "trigger": "visual-grid-opacity", "contents": "$visual-grid-opacity: 0.7;" }
   ]
 }
