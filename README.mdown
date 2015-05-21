@@ -1,7 +1,7 @@
 Derby - Bourbon / Neat Autocompletion For Sublime
 =================================================
 
-[![Abandoned](https://img.shields.io/badge/project-abandoned-red.svg?style=flat)](https://packagecontrol.io/installation)
+[![Updated](https://img.shields.io/badge/project-v4.2.3-blue.svg?style=flat)](https://packagecontrol.io/installation)
 
 __Auto-completion pack written by Ross Edman__
 Sublime autocompletions to aid in using Bourbon and Neat.
@@ -20,7 +20,7 @@ Named after the cocktail Derby which contains Lime and Bourbon.
 
 *3.*  Clone the Derby repository into your Sublime Text Packages folder.
 
-    https://github.com/redata425/derby.git
+    https://github.com/rossedman/derby.git
 
 
 ## License
