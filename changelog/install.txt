@@ -1,3 +1,12 @@
+Derby 4.2.3
+--------------------
+
+This version has updated all auto-completions to be in line with Bourbon 4.2.3 and Neat 1.7.2.
+
+	- Mixins that are deprecated or will soon be deprecated have been removed.
+
+Report issues at https://github.com/rossedman/derby
+
 Derby 1.0.0
 --------------------
 
@@ -7,4 +16,4 @@ few months.
 	- Neat variables were added 
 	- Bourbon / Neat typos were fixed.
 
-Report issues at https://github.com/redata425/derby
+Report issues at https://github.com/rossedman/derby

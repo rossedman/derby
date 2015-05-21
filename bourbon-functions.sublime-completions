@@ -7,12 +7,9 @@
  	{ "trigger": "fg-column", "contents": "\\$fg-column: ${1:60px;} " },
  	{ "trigger": "fg-gutter", "contents": "\\$fg-gutter: ${1:25px;} " },
  	{ "trigger": "fg-max-columns", "contents": "\\$fg-max-columns: ${1:12;} " },
- 	{ "trigger": "flexgrid", "contents": "flex-grid( ${1:2, 4} );" },
  	{ "trigger": "flex-gutter", "contents": "flex-gutter( ${1:4} );" },
- 	{ "trigger": "golden-ratio", "contents": "golden-ratio( ${1:14px,  1} );" },
  	{ "trigger": "gw-column", "contents": "\\$gw-column: ${1:100px;} " },
  	{ "trigger": "gw-gutter", "contents": "\\$gw-gutter: ${1:40px;} " },
- 	{ "trigger": "grid-width", "contents": "grid-width( ${1:4} );" },
  	{ "trigger": "linear-gradient", "contents": "@include background-image(linear-gradient( ${1:white 0}, ${2:yellow 50%}, ${3:transparent 50%} ));" },
  	{ "trigger": "modular-scale", "contents": "modular-scale( ${1:14px}, ${2:1}, ${3:1.618} );" },
  	{ "trigger": "modular-scale-floor", "contents": "floor( modular-scale( ${1:14px}, ${2:1}, ${3:1.618} ) );" },
@@ -20,6 +17,10 @@
  	{ "trigger": "modular-scale-abs", "contents": "abs( modular-scale( ${1:14px}, ${2:1}, ${3:1.618} ) );" },
  	{ "trigger": "radial-gradient", "contents": "@include background-image( radial-gradient( ${1:#1e5799}, ${2:#3dc3d1} ) );" },
  	{ "trigger": "tint", "contents": "tint( ${1:red}, ${2:40%} );" },
- 	{ "trigger": "shade", "contents": "shade( ${1:blue}, ${2:60%} );" }
+ 	{ "trigger": "shade", "contents": "shade( ${1:blue}, ${2:60%} );" },
+ 	{ "trigger": "pixels-to-ems", "contents": "em( ${1:12}, ${2:24} );" },
+ 	{ "trigger": "pixels-to-rems", "contents": "rem( ${1:12} );" },
+ 	{ "trigger": "strip-units", "contents": "strip-units( ${1:12px} );" },
+ 	{ "trigger": "unpack", "contents": "unpack( ${1:1em} ${2:2em} );" }
   ]
 }
