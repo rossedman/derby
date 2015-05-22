@@ -1,5 +1,8 @@
 # Derby - Bourbon / Neat Autocompletion For Sublime Text
 
+![derby-graphic](https://cloud.githubusercontent.com/assets/2628905/7764495/f21312f8-0017-11e5-8d8a-ec31f3f5f6b7.jpg)
+
+
 [![Updated](https://img.shields.io/badge/project-v4.2.3-green.svg?style=flat)](https://packagecontrol.io/installation)
 
 Sublime autocompletions to aid in using [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io) in your projects. Named after the cocktail Derby which contains Lime and Bourbon. Special thanks to [@danieljacobarcher](https://github.com/danieljacobarcher) for contributing the latest updates.
