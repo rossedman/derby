@@ -4,6 +4,9 @@ Derby 4.2.3
 This version has updated all auto-completions to be in line with Bourbon 4.2.3 and Neat 1.7.2.
 
 	- Mixins that are deprecated or will soon be deprecated have been removed.
+    - Removed docs feature
+    - Versioning will now stay the same as Bourbon's version numbers
+    - Now support for both SCSS and SASS
 
 Report issues at https://github.com/rossedman/derby
 
