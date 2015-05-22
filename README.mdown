@@ -1,5 +1,4 @@
-Derby - Bourbon / Neat Autocompletion For Sublime
-=================================================
+# Derby - Bourbon / Neat Autocompletion For Sublime
 
 [![Updated](https://img.shields.io/badge/project-v4.2.3-green.svg?style=flat)](https://packagecontrol.io/installation)
 
@@ -14,8 +13,9 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 git clone http://github.com/rossedman/derby Derby
 ```
 
-How Do I Use Derby
-===================
+You can also downlod the package [here](https://github.com/rossedman/derby/releases/latest) and place it in `~/Library/Application Support/Sublime Text 3/Installed Packages) if you do not want to follow the above instructions.
+
+## How Do I Use Derby
 
 To run an autocomplete, type in the property you are looking for and hit `Tab`.
 	
@@ -25,7 +25,6 @@ To run an autocomplete, type in the property you are looking for and hit `Tab`.
 	
 All properties can be referenced in the Bourbon and Neat documentation.
 
-Gotchas
-=======
+## Gotchas
 
 Derby is set to work with SCSS and SASS in Sublime Text. I have personally not been able to get this to work with SCSS even though the source has been set in the auto completion files. You may have to switch your syntax to SASS to get this to work properly. 
