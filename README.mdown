@@ -1,42 +1,31 @@
 Derby - Bourbon / Neat Autocompletion For Sublime
 =================================================
 
-[![Updated](https://img.shields.io/badge/project-v4.2.3-blue.svg?style=flat)](https://packagecontrol.io/installation)
+[![Updated](https://img.shields.io/badge/project-v4.2.3-green.svg?style=flat)](https://packagecontrol.io/installation)
 
-__Auto-completion pack written by Ross Edman__
-Sublime autocompletions to aid in using Bourbon and Neat.
-Named after the cocktail Derby which contains Lime and Bourbon.
+Sublime autocompletions to aid in using [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io) in your projects. Named after the cocktail Derby which contains Lime and Bourbon. Special thanks to [@danieljacobarcher](https://github.com/danieljacobarcher) for contributing the latest updates.
 
-## Installation
+## Installation Without Package Control
 
-*1.*  Install SASS Textmate Bundle (Used for syntax highlighting and auto-completion)
-	
-	https://github.com/nathos/sass-textmate-bundle
+If you want to install this package without package control, follow these steps:
 
-*2.*  Install Bourbon & Neat into your project
-	
-	https://github.com/thoughtbot/bourbon.git
-	https://github.com/thoughtbot/neat.git
+```
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+git clone http://github.com/rossedman/derby Derby
+```
 
-*3.*  Clone the Derby repository into your Sublime Text Packages folder.
-
-    https://github.com/rossedman/derby.git
-
-
-## License
-License: MIT [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
-
-How Do I Use Derby?
+How Do I Use Derby
 ===================
 
-## Autocompletions
-
-Autocompletions are very self explanatory. These are snippets that are much shorter and are not weighted as heavily in Sublime Text. They just help you autocomplete complicated phrases very quickly. They work just like snippets too!
-
-To run an autocomplete, type in the property you are looking for and hit `Tab`. Most of the time you don't have to type this much as fuzzy searching in Sublime will catch it earlier. Here is an example with `:` representing the `Tab` key.
+To run an autocomplete, type in the property you are looking for and hit `Tab`.
 	
-	animation : @include animation( scale 1.0s ease-in );
+	border-color --> @include border-color( red green null blue );
+	helvetica --> font-family: $helvetica
+	tint --> tint( red, 40% );
+	
+All properties can be referenced in the Bourbon and Neat documentation.
 
-## Docs
+Gotchas
+=======
 
-Derby's *docs* section is composed of snippets that are meant to serve as a reference and a teaching aid. These *docs* can be called on at any time by typing `docs` and then the reference you are looking for (exp: `Animation` or `BoxSizing`). While Bourbon, Neat and SASS are powerful tools, sometimes integrating them into production can be difficult, especially when first learning them. To have a reference at hand should help tremendously! I have even tried to hunt down and reference as many arguments as I can that you can pass into these mixins when applicable.
+Derby is set to work with SCSS and SASS in Sublime Text. I have personally not been able to get this to work with SCSS even though the source has been set in the auto completion files. You may have to switch your syntax to SASS to get this to work properly. 
