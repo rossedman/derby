@@ -1,4 +1,4 @@
-# Derby - Bourbon / Neat Autocompletion For Sublime
+# Derby - Bourbon / Neat Autocompletion For Sublime Text
 
 [![Updated](https://img.shields.io/badge/project-v4.2.3-green.svg?style=flat)](https://packagecontrol.io/installation)
 
